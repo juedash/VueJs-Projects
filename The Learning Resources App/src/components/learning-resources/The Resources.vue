@@ -23,21 +23,21 @@ export default {
   data() {
     return {
       selectedTab: 'stored-resources',
-      storedResources: []
-      // storedResources: [
-      //   {
-      //     id: 'official-guide',
-      //     title: 'Official Guide',
-      //     description: 'The official Vue.js documentation.',
-      //     link: 'https://vuejs.org',
-      //   },
-      //   {
-      //     id: 'google',
-      //     title: 'Google',
-      //     description: 'Learn to google...',
-      //     link: 'https://google.org',
-      //   },
-      // ],
+      // storedResources: []
+      storedResources: [
+        {
+          id: 'official-guide',
+          title: 'Official Guide',
+          description: 'The official Vue.js documentation.',
+          link: 'https://vuejs.org',
+        },
+        {
+          id: 'google',
+          title: 'Google',
+          description: 'Learn to google...',
+          link: 'https://google.org',
+        },
+      ],
     };
   },
   provide() {
