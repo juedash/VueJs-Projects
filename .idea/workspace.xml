@@ -2,31 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ba4a2d6-3c06-44e5-b7e1-b91662ba3021" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/HOW-TO-USE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/components/layout/TheHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/pages/NotFound.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/pages/coaches/CoachDetails.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/pages/coaches/CoachRegistration.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/pages/coaches/CoachesList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/pages/requests/ContactCoach.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/pages/requests/RequestReceived.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/components/coaches/CoachItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/components/ui/BaseBadge.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/components/ui/BaseButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/components/ui/BaseCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/store/modules/coaches/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/store/modules/coaches/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/store/modules/coaches/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Find a Coach Web App/src/store/modules/coaches/mutations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Find a Coach Web App/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Find a Coach Web App/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Find a Coach Web App/src/pages/coaches/CoachesList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Find a Coach Web App/src/pages/coaches/CoachesList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652612419720</updated>
       <workItem from="1652612422014" duration="4830000" />
-      <workItem from="1652626180570" duration="9358000" />
+      <workItem from="1652626180570" duration="9628000" />
+      <workItem from="1652967459434" duration="6900000" />
     </task>
     <servers />
   </component>
@@ -90,5 +78,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Find a Coach Web App/src/main.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
